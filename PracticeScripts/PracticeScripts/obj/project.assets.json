@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\react\\ReactApplications\\PracticeScripts\\PracticeScripts\\PracticeScripts.csproj",
+      "projectUniqueName": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\PracticeScripts.csproj",
       "projectName": "PracticeScripts",
-      "projectPath": "C:\\react\\ReactApplications\\PracticeScripts\\PracticeScripts\\PracticeScripts.csproj",
+      "projectPath": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\PracticeScripts.csproj",
       "packagesPath": "C:\\Users\\ochoa\\.nuget\\packages\\",
-      "outputPath": "C:\\react\\ReactApplications\\PracticeScripts\\PracticeScripts\\obj\\",
+      "outputPath": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1008,11 +1008,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\react\\ReactApplications\\PracticeScripts\\PracticeScripts.Tests\\PracticeScripts.Tests.csproj",
+      "projectUniqueName": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\PracticeScripts.Tests.csproj",
       "projectName": "PracticeScripts.Tests",
-      "projectPath": "C:\\react\\ReactApplications\\PracticeScripts\\PracticeScripts.Tests\\PracticeScripts.Tests.csproj",
+      "projectPath": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\PracticeScripts.Tests.csproj",
       "packagesPath": "C:\\Users\\ochoa\\.nuget\\packages\\",
-      "outputPath": "C:\\react\\ReactApplications\\PracticeScripts\\PracticeScripts.Tests\\obj\\",
+      "outputPath": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1034,8 +1034,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\react\\ReactApplications\\PracticeScripts\\PracticeScripts\\PracticeScripts.csproj": {
-              "projectPath": "C:\\react\\ReactApplications\\PracticeScripts\\PracticeScripts\\PracticeScripts.csproj"
+            "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\PracticeScripts.csproj": {
+              "projectPath": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\PracticeScripts.csproj"
             }
           }
         }
@@ -1087,7 +1087,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

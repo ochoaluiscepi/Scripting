@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hav+qieFC5QFvgkgr1JgSU8pE5AEskzVtLVou4AxEmXVtQ+AM9XffrBMEfM6mVw7nxDJIXITSqNJFFEvpCoEtA==",
+  "dgSpecHash": "20UK81dwKvVuWH0NBcei6/nelPKDy20rjspTcU0EXcEkYoF4a6xHdxqWv4yTnuyPOn2dEZ9plKB5tW5ld3ecYQ==",
   "success": true,
-  "projectFilePath": "C:\\react\\ReactApplications\\PracticeScripts\\PracticeScripts.Tests\\PracticeScripts.Tests.csproj",
+  "projectFilePath": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\PracticeScripts.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ochoa\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\ochoa\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
