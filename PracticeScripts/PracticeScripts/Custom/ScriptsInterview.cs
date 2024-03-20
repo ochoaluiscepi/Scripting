@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -145,7 +146,7 @@ namespace PracticeScripts.Custom
             var repite = arr.GroupBy(c => c).ToDictionary(g => g.Key, g => g.Count());
 
             return repite.Where(c => c.Key == buscar && c.Value >=minimo).Count() > 0;
-
+            
         }
     }
 }
