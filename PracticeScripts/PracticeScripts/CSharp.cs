@@ -10,7 +10,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using PracticeScripts;
 
-namespace PracticeScripts
+namespace PracticeScripts.OOP
 {
 
     #region OOP Principles
