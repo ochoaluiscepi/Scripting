@@ -814,6 +814,58 @@ namespace PracticeScripts.OOP
 
     #endregion
 
+    #region Modifiers
+    /*
+     Public: Public access is the most permissive access level. There are no restrictions on accessing public members
+
+     Private: Are accessible only within the body of the class or the struct in which they are declared
+
+     Protected: A protected member is accessible within its class and by derived class instances.
+
+     Internal: Are accessible only within files in the same assembly
+
+     Protected internal: Cualquier código del ensamblado en el que se ha declarado, o desde cualquier clase derivada de otro ensamblado, puede acceder al tipo o miembro.
+     
+    Private protected: El código de la misma clase, o de un tipo derivado de esa clase, puede acceder al tipo o miembro solo dentro de su ensamblado que declara. 
+     */
+
+    public class ModifiersExample
+    {
+        public int example = 0;
+        private int example2 = 0;
+        protected int example3 = 0;
+        internal int example4 = 0;
+
+        public void Example()
+        {
+
+            
+        }
+    }
+
+    #endregion
+
+    #region ReadOnly
+
+    //It indicates that the assignment to the fields is only the part of the declaration or in a constructor to the same class. 
+
+    public class ReadOnlyExample
+    {
+        private readonly int _year;
+        ReadOnlyExample(int year)
+        {
+            _year = year;
+        }
+        void ChangeYear()
+        {
+            //_year = 1967; // Compile error if uncommented.
+        }
+    }
+    #endregion
+
+
+
+
     internal class CSharp
     {
     }
