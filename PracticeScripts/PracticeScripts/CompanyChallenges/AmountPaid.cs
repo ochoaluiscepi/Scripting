@@ -10,9 +10,6 @@ namespace PracticeScripts.CompanyChallenges
     {
         public double CompanyAmountPaid(int salary, int[] debts, int[] interests)
         {
-            //int salary = 50;
-            //int[] debts = new int[3] { 2, 2, 5 };
-            //int[] interests = new int[3] { 200, 100, 150 };
             double amountPaid = 0;
             bool mounthsCounter = true;
             do
