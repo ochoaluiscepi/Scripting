@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
@@ -208,6 +210,14 @@ namespace PracticeScripts
             var MethodSyntaxSum = intList.Sum();
 
             var QuerySyntaxSum = (from num in intList select num).Sum();
+
+            //Exercise
+            //calculate the sum of their lengths
+            List<string> list = new List<string>() { "Hello", "this", "is", "an", "example" };
+            IEnumerable<string> words = list;
+
+            var length = words.Sum(x => x.Length);
+
             #endregion
 
             #region Skip(): It is used to skip or bypass the first n number of elements from a data source or sequence and then returns the remaining elements from the data source as output.
@@ -358,7 +368,27 @@ namespace PracticeScripts
             #region Append(): adds a single element to the end of an IEnumerable<T> sequence.
             List<int> newintSequence = IntArray.Append(5).ToList();
             #endregion
+            #region entityState
 
+            //Validate if an entry was added
+            //this.Context.Entry(object).state == Entitystate.Added
+
+            //SaveAsync related records
+
+            //Add relation Many to Many: https://learn.microsoft.com/en-us/ef/core/modeling/relationships/many-to-many
+
+            //    protected override void OnModelCreating(ModelBuilder modelBuilder)
+            //{
+            //    modelBuilder.Entity<Post>()
+            //        .HasMany(e => e.Tags)
+            //        .WithMany(e => e.Posts);
+            //}
+
+
+            //Create the record including the objects
+
+
+            #endregion
 
         }
 
