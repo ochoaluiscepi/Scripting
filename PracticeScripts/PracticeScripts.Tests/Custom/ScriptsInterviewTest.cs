@@ -19,6 +19,7 @@ namespace PracticeScripts.Tests.Custom
             expected[3] = 1;
             expected[6] = 1;
             ScriptsInterview thej = new ScriptsInterview();
+
             //Act
             var result = thej.GetGroup(array);
 
@@ -55,6 +56,7 @@ namespace PracticeScripts.Tests.Custom
         {
             //Arrange
             ScriptsInterview thej = new ScriptsInterview();
+
             //Act
             int result = thej.SpartInterview(array);
 
@@ -70,6 +72,7 @@ namespace PracticeScripts.Tests.Custom
         {
             //Arrange
             ScriptsInterview thej = new ScriptsInterview();
+
             //Act
             bool result = thej.contiene(array, buscar,minimo);
 
@@ -85,6 +88,7 @@ namespace PracticeScripts.Tests.Custom
         {
             //Arrange
             ScriptsInterview thej = new ScriptsInterview();
+
             //Act
             int result = thej.mayorDiferencia(array);
 
@@ -107,8 +111,5 @@ namespace PracticeScripts.Tests.Custom
             //Assert
             Assert.IsTrue(result == expected);
         }
-
-
-
     }
 }
