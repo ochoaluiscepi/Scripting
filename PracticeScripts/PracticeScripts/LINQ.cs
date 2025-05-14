@@ -368,6 +368,7 @@ namespace PracticeScripts
             #region Append(): adds a single element to the end of an IEnumerable<T> sequence.
             List<int> newintSequence = IntArray.Append(5).ToList();
             #endregion
+
             #region entityState
 
             //Validate if an entry was added

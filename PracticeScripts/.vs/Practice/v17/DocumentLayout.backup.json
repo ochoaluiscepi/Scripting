@@ -1,0 +1,317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\react\\Scripting\\PracticeScripts\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B0F89B-DCD3-43DD-890A-B1A1DEA2834B}|PracticeScripts.Tests\\PracticeScripts.Tests.csproj|c:\\react\\scripting\\practicescripts\\practicescripts.tests\\custom\\scriptsinterviewtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B0F89B-DCD3-43DD-890A-B1A1DEA2834B}|PracticeScripts.Tests\\PracticeScripts.Tests.csproj|solutionrelative:practicescripts.tests\\custom\\scriptsinterviewtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|c:\\react\\scripting\\practicescripts\\practicescripts\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|solutionrelative:practicescripts\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|c:\\react\\scripting\\practicescripts\\practicescripts\\csharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|solutionrelative:practicescripts\\csharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|c:\\react\\scripting\\practicescripts\\practicescripts\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|solutionrelative:practicescripts\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|c:\\react\\scripting\\practicescripts\\practicescripts\\linq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|solutionrelative:practicescripts\\linq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|c:\\react\\scripting\\practicescripts\\practicescripts\\custom\\scriptsinterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|solutionrelative:practicescripts\\custom\\scriptsinterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B0F89B-DCD3-43DD-890A-B1A1DEA2834B}|PracticeScripts.Tests\\PracticeScripts.Tests.csproj|c:\\react\\scripting\\practicescripts\\practicescripts.tests\\arcade\\exploringthewaterstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B0F89B-DCD3-43DD-890A-B1A1DEA2834B}|PracticeScripts.Tests\\PracticeScripts.Tests.csproj|solutionrelative:practicescripts.tests\\arcade\\exploringthewaterstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|c:\\react\\scripting\\practicescripts\\practicescripts\\arcade\\smoothsailing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|solutionrelative:practicescripts\\arcade\\smoothsailing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|c:\\react\\scripting\\practicescripts\\practicescripts\\arcade\\thejourneybeggins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|solutionrelative:practicescripts\\arcade\\thejourneybeggins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|c:\\react\\scripting\\practicescripts\\practicescripts\\companychallenges\\amountpaid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|solutionrelative:practicescripts\\companychallenges\\amountpaid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|c:\\react\\scripting\\practicescripts\\practicescripts\\companychallenges\\salesleadsscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|solutionrelative:practicescripts\\companychallenges\\salesleadsscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B0F89B-DCD3-43DD-890A-B1A1DEA2834B}|PracticeScripts.Tests\\PracticeScripts.Tests.csproj|c:\\react\\scripting\\practicescripts\\practicescripts.tests\\arcade\\thejourneybegginstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B0F89B-DCD3-43DD-890A-B1A1DEA2834B}|PracticeScripts.Tests\\PracticeScripts.Tests.csproj|solutionrelative:practicescripts.tests\\arcade\\thejourneybegginstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B0F89B-DCD3-43DD-890A-B1A1DEA2834B}|PracticeScripts.Tests\\PracticeScripts.Tests.csproj|c:\\react\\scripting\\practicescripts\\practicescripts.tests\\arcade\\islandofknowledgetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B0F89B-DCD3-43DD-890A-B1A1DEA2834B}|PracticeScripts.Tests\\PracticeScripts.Tests.csproj|solutionrelative:practicescripts.tests\\arcade\\islandofknowledgetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|c:\\react\\scripting\\practicescripts\\practicescripts\\arcade\\islandofknowledge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|solutionrelative:practicescripts\\arcade\\islandofknowledge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|c:\\react\\scripting\\practicescripts\\practicescripts\\arcade\\edgeoftheocean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|solutionrelative:practicescripts\\arcade\\edgeoftheocean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|c:\\react\\scripting\\practicescripts\\practicescripts\\arcade\\exploringthewaters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B9435BB-A9A3-4F3D-BA8E-5A142458FAB5}|PracticeScripts\\PracticeScripts.csproj|solutionrelative:practicescripts\\arcade\\exploringthewaters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B0F89B-DCD3-43DD-890A-B1A1DEA2834B}|PracticeScripts.Tests\\PracticeScripts.Tests.csproj|c:\\react\\scripting\\practicescripts\\practicescripts.tests\\arcade\\smoothsailingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B0F89B-DCD3-43DD-890A-B1A1DEA2834B}|PracticeScripts.Tests\\PracticeScripts.Tests.csproj|solutionrelative:practicescripts.tests\\arcade\\smoothsailingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4B0F89B-DCD3-43DD-890A-B1A1DEA2834B}|PracticeScripts.Tests\\PracticeScripts.Tests.csproj|c:\\react\\scripting\\practicescripts\\practicescripts.tests\\arcade\\edgeoftheoceantest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B0F89B-DCD3-43DD-890A-B1A1DEA2834B}|PracticeScripts.Tests\\PracticeScripts.Tests.csproj|solutionrelative:practicescripts.tests\\arcade\\edgeoftheoceantest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JavaScript.js",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\JavaScript.js",
+              "RelativeDocumentMoniker": "PracticeScripts\\JavaScript.js",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\JavaScript.js",
+              "RelativeToolTip": "PracticeScripts\\JavaScript.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-22T23:09:43.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CSharp.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\CSharp.cs",
+              "RelativeDocumentMoniker": "PracticeScripts\\CSharp.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\CSharp.cs",
+              "RelativeToolTip": "PracticeScripts\\CSharp.cs",
+              "ViewState": "AgIAAO8BAAAAAAAAAAAAAGcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T18:53:36.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LINQ.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\LINQ.cs",
+              "RelativeDocumentMoniker": "PracticeScripts\\LINQ.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\LINQ.cs",
+              "RelativeToolTip": "PracticeScripts\\LINQ.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:44:06.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScriptsInterview.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\Custom\\ScriptsInterview.cs",
+              "RelativeDocumentMoniker": "PracticeScripts\\Custom\\ScriptsInterview.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\Custom\\ScriptsInterview.cs",
+              "RelativeToolTip": "PracticeScripts\\Custom\\ScriptsInterview.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAIAywIoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:27:52.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScriptsInterviewTest.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\Custom\\ScriptsInterviewTest.cs",
+              "RelativeDocumentMoniker": "PracticeScripts.Tests\\Custom\\ScriptsInterviewTest.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\Custom\\ScriptsInterviewTest.cs",
+              "RelativeToolTip": "PracticeScripts.Tests\\Custom\\ScriptsInterviewTest.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAiwHAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:27:52.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TheJourneyBeggins.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\Arcade\\TheJourneyBeggins.cs",
+              "RelativeDocumentMoniker": "PracticeScripts\\Arcade\\TheJourneyBeggins.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\Arcade\\TheJourneyBeggins.cs",
+              "RelativeToolTip": "PracticeScripts\\Arcade\\TheJourneyBeggins.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:27:52.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AmountPaid.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\CompanyChallenges\\AmountPaid.cs",
+              "RelativeDocumentMoniker": "PracticeScripts\\CompanyChallenges\\AmountPaid.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\CompanyChallenges\\AmountPaid.cs",
+              "RelativeToolTip": "PracticeScripts\\CompanyChallenges\\AmountPaid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:27:52.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SmoothSailing.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\Arcade\\SmoothSailing.cs",
+              "RelativeDocumentMoniker": "PracticeScripts\\Arcade\\SmoothSailing.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\Arcade\\SmoothSailing.cs",
+              "RelativeToolTip": "PracticeScripts\\Arcade\\SmoothSailing.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAgwEgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:27:52.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExploringTheWatersTest.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\Arcade\\ExploringTheWatersTest.cs",
+              "RelativeDocumentMoniker": "PracticeScripts.Tests\\Arcade\\ExploringTheWatersTest.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\Arcade\\ExploringTheWatersTest.cs",
+              "RelativeToolTip": "PracticeScripts.Tests\\Arcade\\ExploringTheWatersTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:27:52.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SalesLeadsScore.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\CompanyChallenges\\SalesLeadsScore.cs",
+              "RelativeDocumentMoniker": "PracticeScripts\\CompanyChallenges\\SalesLeadsScore.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\CompanyChallenges\\SalesLeadsScore.cs",
+              "RelativeToolTip": "PracticeScripts\\CompanyChallenges\\SalesLeadsScore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:27:52.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TheJourneyBegginsTest.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\Arcade\\TheJourneyBegginsTest.cs",
+              "RelativeDocumentMoniker": "PracticeScripts.Tests\\Arcade\\TheJourneyBegginsTest.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\Arcade\\TheJourneyBegginsTest.cs",
+              "RelativeToolTip": "PracticeScripts.Tests\\Arcade\\TheJourneyBegginsTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:27:52.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EdgeOfTheOcean.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\Arcade\\EdgeOfTheOcean.cs",
+              "RelativeDocumentMoniker": "PracticeScripts\\Arcade\\EdgeOfTheOcean.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\Arcade\\EdgeOfTheOcean.cs",
+              "RelativeToolTip": "PracticeScripts\\Arcade\\EdgeOfTheOcean.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswEMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:27:52.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IslandOfKnowledgeTest.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\Arcade\\IslandOfKnowledgeTest.cs",
+              "RelativeDocumentMoniker": "PracticeScripts.Tests\\Arcade\\IslandOfKnowledgeTest.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\Arcade\\IslandOfKnowledgeTest.cs",
+              "RelativeToolTip": "PracticeScripts.Tests\\Arcade\\IslandOfKnowledgeTest.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAqwCsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:27:52.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IslandOfKnowledge.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\Arcade\\IslandOfKnowledge.cs",
+              "RelativeDocumentMoniker": "PracticeScripts\\Arcade\\IslandOfKnowledge.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\Arcade\\IslandOfKnowledge.cs",
+              "RelativeToolTip": "PracticeScripts\\Arcade\\IslandOfKnowledge.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:27:52.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExploringTheWaters.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\Arcade\\ExploringTheWaters.cs",
+              "RelativeDocumentMoniker": "PracticeScripts\\Arcade\\ExploringTheWaters.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\Arcade\\ExploringTheWaters.cs",
+              "RelativeToolTip": "PracticeScripts\\Arcade\\ExploringTheWaters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:27:52.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SmoothSailingTests.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\Arcade\\SmoothSailingTests.cs",
+              "RelativeDocumentMoniker": "PracticeScripts.Tests\\Arcade\\SmoothSailingTests.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\Arcade\\SmoothSailingTests.cs",
+              "RelativeToolTip": "PracticeScripts.Tests\\Arcade\\SmoothSailingTests.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAwwDgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:27:52.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EdgeOfTheOceanTest.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\Arcade\\EdgeOfTheOceanTest.cs",
+              "RelativeDocumentMoniker": "PracticeScripts.Tests\\Arcade\\EdgeOfTheOceanTest.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts.Tests\\Arcade\\EdgeOfTheOceanTest.cs",
+              "RelativeToolTip": "PracticeScripts.Tests\\Arcade\\EdgeOfTheOceanTest.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAswDoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:27:52.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\Program.cs",
+              "RelativeDocumentMoniker": "PracticeScripts\\Program.cs",
+              "ToolTip": "C:\\react\\Scripting\\PracticeScripts\\PracticeScripts\\Program.cs",
+              "RelativeToolTip": "PracticeScripts\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T19:27:52.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
