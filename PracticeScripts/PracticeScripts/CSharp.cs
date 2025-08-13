@@ -37,18 +37,18 @@ namespace PracticeScripts.OOP
      */
     #endregion
 
-    #region Value Type and Value Reference
-    /*
-    Value type stores the value in its memory space, whereas reference type stores the address of the value where it is stored.
-    */
-    #endregion
-
     #region Cohesion
     /*
      Cohesion refers to what the class (or module) can do. Low cohesion would mean that the class does a great variety of actions - 
      it is broad, unfocused on what it should do. High cohesion means that the class is focused on what it should be doing,
      i.e. only methods
      */
+    #endregion
+
+    #region Value Type and Value Reference
+    /*
+    Value type stores the value in its memory space, whereas reference type stores the address of the value where it is stored.
+    */
     #endregion
 
     #region DI -> Dependency Injection
