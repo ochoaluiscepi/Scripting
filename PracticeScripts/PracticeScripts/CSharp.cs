@@ -1,4 +1,7 @@
-﻿using System;
+﻿using FluentAssertions.Common;
+using PracticeScripts;
+using System;
+using System.Buffers.Text;
 using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -8,7 +11,6 @@ using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using PracticeScripts;
 
 namespace PracticeScripts.OOP
 {
@@ -863,7 +865,41 @@ namespace PracticeScripts.OOP
     }
     #endregion
 
+    #region JWT Token
 
+    //What are the main authentication schemes in .NET Core?
+
+    //Cookie-Based Auth - Traditional method(e.g., ASP.NET Identity).
+    //Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+
+    //JWT(Bearer Token) - Stateless, used for APIs.
+    //services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options => { /* Configure JWT */ });
+
+    //OAuth/OpenID Connect - Delegated auth(e.g., Google, Facebook).
+    //services.AddAuthentication().AddGoogle(options => { /* ClientId/Secret */ });
+
+    //How does JWT Authentication work in .NET Core?
+
+    //Client sends credentials(e.g., username/password).
+    //Server validates credentials → issues JWT.
+    //Client includes JWT in Authorization: Bearer<token> header.
+    //Server validates JWT signature, issuer, and expiry.
+
+    // Code
+    /*Example:
+        services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+        .AddJwtBearer(options => {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidIssuer = "YourIssuer",
+            ValidateAudience = true,
+            ValidAudience = "YourAudience",
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSecretKey"))
+        };
+    });
+    */
+    #endregion
 
 
     internal class CSharp
