@@ -1,16 +1,5 @@
-﻿using FluentAssertions.Common;
-using PracticeScripts;
-using System;
-using System.Buffers.Text;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace PracticeScripts.OOP
 {
@@ -56,6 +45,14 @@ namespace PracticeScripts.OOP
     #region DI -> Dependency Injection
     /*
     A dependency is any object that another object requires
+
+    Transient (new instance every request).
+    Scoped (per HTTP request).
+    Singleton (shared across all requests).
+
+        services.AddSingleton<ILogger, ConsoleLogger>();
+        services.AddTransient<IDatabase, SqlDatabase>();
+        services.AddScoped<IEmailService, SmtpEmailService>();
     */
     public class ExampleDI
     {
@@ -901,6 +898,68 @@ namespace PracticeScripts.OOP
     */
     #endregion
 
+    #region this and base
+    /*
+     * this Refer to current instance
+     *base keyword is used to access members of the base class from within a derived class. Use it if you want to:
+
+        Call a method on the base class overridden by another method.
+        Specify which base-class constructor should be called when creating instances of the derived class.
+    */
+    #endregion
+
+    #region IServiceCollection
+    //is the fundamental interface in ASP.NET Core for registering application services with the built-in Inversion of Control (IoC) container,
+    //also known as the Dependency Injection (DI) container.
+    #endregion
+
+    #region IServiceProvider
+    //is the core interface for retrieving services (dependencies) from the Inversion of Control (IoC) / Dependency Injection (DI) container.
+    //If IServiceCollection is the menu where you define what dishes are available and how they're prepared,
+    //IServiceProvider is the waiter you ask to bring you a specific dish.
+
+    //services.AddSingleton<ILogger, ConsoleLogger>();
+
+    // Retrieve services
+    //var businessService = scope.ServiceProvider.GetRequiredService<BusinessService>();
+    #endregion
+
+    #region Constructor
+
+    /*
+     * Public Constructor
+     * 
+     * A class may have multiple public constructors such as Default constructor and Named Constructor.It is accessible from both inside and outside the class.
+     * You can create instances of the class using the public constructor from anywhere in your Dart code.
+     * Public constructors are typically used to create instances of a class.
+     * _________________________________________________________________________________________________________________
+     * Private Constructor
+     * 
+     * A private constructor is denoted by prefixing the constructor’s name with an underscore _.
+     * It is accessible within the same class or the same library.
+     * You cannot create instances of the class using a private constructor from outside the library.
+     * Private constructors are often used for various purposes, such as creating singletons, controlling object creation, or providing named constructors that are only accessible within the class.
+     * */
+
+    #endregion
+
+    #region IQueryable
+    /*
+     * interface that represents a queryable data source (usually a database) and enables LINQ-to-SQL translation
+     * IQueryable relies on a provider (e.g., EF Core, CosmosDB) to translate expressions into the target query language
+     * 
+     * IQueryable<User> usersQuery = db.Users.Where(u => u.Age > 25).OrderBy(u => u.Name);
+     */
+    #endregion
+
+    #region IEnumerable
+    /*
+     *LINQ runs in C# (good for in-memory). 
+     *IEnumerable is a fundamental interface in C# that represents a sequence of elements that can be enumerated (iterated over) using foreach 
+     * 
+     * IEnumerable<int> nums = new List<int> { 1, 2, 3 };
+     */
+    #endregion
 
     internal class CSharp
     {
