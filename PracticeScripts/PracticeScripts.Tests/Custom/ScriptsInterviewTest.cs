@@ -44,13 +44,13 @@ namespace PracticeScripts.Tests.Custom
 
 
         [Test]
-        [TestCase(new string[] { "--Name", "nnn", "--count","9" }, -1)]
+        [TestCase(new string[] { "--Name", "nnn", "--count", "9" }, -1)]
         [TestCase(new string[] { "--Name", "Luis", "--count", "101" }, -1)]
-        [TestCase(new string[] { "--Name", "Ochoa","--count", "11" }, 0)]
+        [TestCase(new string[] { "--Name", "Ochoa", "--count", "11" }, 0)]
         [TestCase(new string[] { "--help", "--Name", "SOME_NAME" }, 1)]
-        [TestCase(new string[] { "--help", "--Name", "SOME_NAME","--count","15" }, 1)]
+        [TestCase(new string[] { "--help", "--Name", "SOME_NAME", "--count", "15" }, 1)]
         [TestCase(new string[] { "--count", "10" }, 0)]
-        [TestCase(new string[] { "--name", "luis", "--count","15", "--help" }, 1)]
+        [TestCase(new string[] { "--name", "luis", "--count", "15", "--help" }, 1)]
 
         public void SparqInterviewTest(string[] array, int expected)
         {
@@ -64,7 +64,7 @@ namespace PracticeScripts.Tests.Custom
             Assert.IsTrue(result == expected);
         }
         [Test]
-        [TestCase(new int[] { 4,5,2,4,5,9,9,4,4 }, 4,5, false)]
+        [TestCase(new int[] { 4, 5, 2, 4, 5, 9, 9, 4, 4 }, 4, 5, false)]
         [TestCase(new int[] { 4, 5, 2, 4, 5, 9, 9, 4, 4 }, 4, 4, true)]
         [TestCase(new int[] { 4, 5, 2, 4, 5, 9, 9, 4, 4 }, 4, 3, true)]
         [TestCase(new int[] { 4, 5, 2, 4, 5, 9, 9, 4, 4 }, 9, 2, true)]
@@ -74,16 +74,16 @@ namespace PracticeScripts.Tests.Custom
             ScriptsInterview thej = new ScriptsInterview();
 
             //Act
-            bool result = thej.contiene(array, buscar,minimo);
+            bool result = thej.contiene(array, buscar, minimo);
 
             //Assert
             Assert.IsTrue(result == expected);
         }
         [Test]
-        [TestCase(new int[] { 1,1,4 }, 3)]
-        [TestCase(new int[] { 9,8 }, 1)]
-        [TestCase(new int[] { 6,22,16,29,23 },23)]
-        [TestCase(new int[] { 28,16,28,11,14,26,23,25,17,3,22,23,23,10},25)]
+        [TestCase(new int[] { 1, 1, 4 }, 3)]
+        [TestCase(new int[] { 9, 8 }, 1)]
+        [TestCase(new int[] { 6, 22, 16, 29, 23 }, 23)]
+        [TestCase(new int[] { 28, 16, 28, 11, 14, 26, 23, 25, 17, 3, 22, 23, 23, 10 }, 25)]
         public void BluePeopleMayorDiferenciaInterviewTest(int[] array, int expected)
         {
             //Arrange
@@ -96,11 +96,11 @@ namespace PracticeScripts.Tests.Custom
             Assert.IsTrue(result == expected);
         }
         [Test]
-        [TestCase(new int[] { 1,3,5 }, true)]
-        [TestCase(new int[] { 194,54,23,7,3,6,8}, false)]
-        [TestCase(new int[] { 44,37,30,23 }, true)]
-        [TestCase(new int[] { 1,8 }, true)]
-        [TestCase(new int[] { 3,2,1,2,3,4,3}, true)]
+        [TestCase(new int[] { 1, 3, 5 }, true)]
+        [TestCase(new int[] { 194, 54, 23, 7, 3, 6, 8 }, false)]
+        [TestCase(new int[] { 44, 37, 30, 23 }, true)]
+        [TestCase(new int[] { 1, 8 }, true)]
+        [TestCase(new int[] { 3, 2, 1, 2, 3, 4, 3 }, true)]
         public void BluePeopleMismaDiferenciaInterviewTest(int[] array, bool expected)
         {
             //Arrange
@@ -111,5 +111,49 @@ namespace PracticeScripts.Tests.Custom
             //Assert
             Assert.IsTrue(result == expected);
         }
+
+        [Test]
+        [TestCase(new int[] { 1, 3, 5 }, 0, false)]
+        [TestCase(new int[] { 194, 54, 23, 7, 3, 6, 8 }, 7, true)]
+        [TestCase(new int[] { 44, 37, 30, 23 }, 30, true)]
+        [TestCase(new int[] { 1, 8 }, 3, false)]
+        [TestCase(new int[] { 3, 2, 1, 2, 3, 4, 3 }, 5, false)]
+        public void findNumberTest(int[] array, int k, bool expected)
+        {
+            //Arrange
+
+            //Act
+            bool result = ScriptsInterview.findNumber(array.ToList(), k) == "YES";
+
+            //Assert
+            Assert.IsTrue(result == expected);
+        }
+
+        [Test]
+        [TestCase(2, 5, new int[] { 3, 5 }, true)]
+        [TestCase(3, 9, new int[] { 3, 5, 7, 9 }, true)]
+        [TestCase(96, 97, new int[] { 97 }, true)]
+        [TestCase(90, 97, new int[] { 97 }, false)]
+        public void oddNumberTest(int l, int r, int[] arr, bool expected)
+        {
+            //Arrange
+
+            //Act
+            var result = ScriptsInterview.oddNumbers(l, r).ToList();
+
+            //Assert
+            if (expected)
+            {
+                Assert.IsTrue(result.SequenceEqual(arr));
+            }
+            else
+            {
+                Assert.IsFalse(result.SequenceEqual(arr));
+            }
+
+        }
+
+
+
     }
 }

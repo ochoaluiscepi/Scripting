@@ -145,8 +145,52 @@ namespace PracticeScripts.Custom
             //ordenar
             var repite = arr.GroupBy(c => c).ToDictionary(g => g.Key, g => g.Count());
 
-            return repite.Where(c => c.Key == buscar && c.Value >=minimo).Count() > 0;
-            
+            return repite.Where(c => c.Key == buscar && c.Value >= minimo).Count() > 0;
+
         }
+
+        public static string findNumber(List<int> arr, int k)
+        {
+            /*
+     * Complete the 'findNumber' function below.
+     *
+     * The function is expected to return a STRING.
+     * The function accepts following parameters:
+     *  1. INTEGER_ARRAY arr
+     *  2. INTEGER k
+     */
+            return arr.Any(x => x == k) ? "YES" : "NO";
+            foreach (int c in arr)
+            {
+                if (c == k)
+                {
+                    return "YES";
+                }
+            }
+            return "NO";
+        }
+
+        public static List<int> oddNumbers(int l, int r)
+        {
+            
+     /* Complete the 'oddNumbers' function below.
+     *
+     * The function is expected to return an INTEGER_ARRAY.
+     * The function accepts following parameters:
+     *  1. INTEGER l
+     *  2. INTEGER r */
+     
+            List<int> arr = new List<int>();
+            for (int x = l; x <= r; x++)
+            {
+                if (x % 2 != 0)
+                {
+                    arr.Add(x);
+                }
+            }
+
+            return arr;
+        }
+
     }
 }
