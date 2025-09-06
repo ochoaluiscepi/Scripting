@@ -13,7 +13,24 @@ namespace PracticeScripts.Tests.HackerRank
             //Arrange
 
             //Act
-            int result = ScriptsHakerRankStrings.CamelCase(word);
+            int result = ScriptsHakerRankStrings.camelCase(word);
+
+            //Assert
+            Assert.IsTrue(result == expected);
+        }
+
+        [Test]
+        [TestCase("{[][()]}", true)]
+        [TestCase("[({})]", true)]
+        [TestCase("(){}[]", true)]
+        [TestCase("{{([])}}}", false)]
+        [TestCase("({}]", false)]
+        public void isTheStruchtureValidTest(string braces, bool expected)
+        {
+            //Arrange
+
+            //Act
+            bool result = ScriptsHakerRankStrings.isTheStruchtureValid(braces);
 
             //Assert
             Assert.IsTrue(result == expected);
