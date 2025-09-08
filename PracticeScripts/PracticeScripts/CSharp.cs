@@ -864,101 +864,121 @@ namespace PracticeScripts.OOP
 
     #region JWT Token
 
-    //What are the main authentication schemes in .NET Core?
+     //What are the main authentication schemes in .NET Core?
 
-    //Cookie-Based Auth - Traditional method(e.g., ASP.NET Identity).
-    //Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+     //Cookie-Based Auth - Traditional method(e.g., ASP.NET Identity).
+     //Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
 
-    //JWT(Bearer Token) - Stateless, used for APIs.
-    //services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options => { /* Configure JWT */ });
+     //JWT(Bearer Token) - Stateless, used for APIs.
+     //services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options => { /* Configure JWT */ });
 
-    //OAuth/OpenID Connect - Delegated auth(e.g., Google, Facebook).
-    //services.AddAuthentication().AddGoogle(options => { /* ClientId/Secret */ });
+     //OAuth/OpenID Connect - Delegated auth(e.g., Google, Facebook).
+     //services.AddAuthentication().AddGoogle(options => { /* ClientId/Secret */ });
 
-    //How does JWT Authentication work in .NET Core?
+     //How does JWT Authentication work in .NET Core?
 
-    //Client sends credentials(e.g., username/password).
-    //Server validates credentials → issues JWT.
-    //Client includes JWT in Authorization: Bearer<token> header.
-    //Server validates JWT signature, issuer, and expiry.
+     //Client sends credentials(e.g., username/password).
+     //Server validates credentials → issues JWT.
+     //Client includes JWT in Authorization: Bearer<token> header.
+     //Server validates JWT signature, issuer, and expiry.
 
-    // Code
-    /*Example:
-        services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-        .AddJwtBearer(options => {
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = true,
-            ValidIssuer = "YourIssuer",
-            ValidateAudience = true,
-            ValidAudience = "YourAudience",
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSecretKey"))
-        };
-    });
-    */
+     // Code
+     /*Example:
+         services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+         .AddJwtBearer(options => {
+         options.TokenValidationParameters = new TokenValidationParameters
+         {
+             ValidateIssuer = true,
+             ValidIssuer = "YourIssuer",
+             ValidateAudience = true,
+             ValidAudience = "YourAudience",
+             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSecretKey"))
+         };
+     });
+     */
     #endregion
 
     #region this and base
-    /*
-     * this Refer to current instance
-     *base keyword is used to access members of the base class from within a derived class. Use it if you want to:
+     /*
+      * this Refer to current instance
+      *base keyword is used to access members of the base class from within a derived class. Use it if you want to:
 
-        Call a method on the base class overridden by another method.
-        Specify which base-class constructor should be called when creating instances of the derived class.
-    */
+         Call a method on the base class overridden by another method.
+         Specify which base-class constructor should be called when creating instances of the derived class.
+     */
     #endregion
 
     #region IServiceCollection
-    //is the fundamental interface in ASP.NET Core for registering application services with the built-in Inversion of Control (IoC) container,
-    //also known as the Dependency Injection (DI) container.
+     //is the fundamental interface in ASP.NET Core for registering application services with the built-in Inversion of Control (IoC) container,
+     //also known as the Dependency Injection (DI) container.
     #endregion
 
     #region IServiceProvider
-    //is the core interface for retrieving services (dependencies) from the Inversion of Control (IoC) / Dependency Injection (DI) container.
-    //If IServiceCollection is the menu where you define what dishes are available and how they're prepared,
-    //IServiceProvider is the waiter you ask to bring you a specific dish.
+     //is the core interface for retrieving services (dependencies) from the Inversion of Control (IoC) / Dependency Injection (DI) container.
+     //If IServiceCollection is the menu where you define what dishes are available and how they're prepared,
+     //IServiceProvider is the waiter you ask to bring you a specific dish.
 
-    //services.AddSingleton<ILogger, ConsoleLogger>();
+     //services.AddSingleton<ILogger, ConsoleLogger>();
 
-    // Retrieve services
-    //var businessService = scope.ServiceProvider.GetRequiredService<BusinessService>();
+     // Retrieve services
+     //var businessService = scope.ServiceProvider.GetRequiredService<BusinessService>();
     #endregion
 
     #region Constructor
 
-    /*
-     * Public Constructor
-     * 
-     * A class may have multiple public constructors such as Default constructor and Named Constructor.It is accessible from both inside and outside the class.
-     * You can create instances of the class using the public constructor from anywhere in your Dart code.
-     * Public constructors are typically used to create instances of a class.
-     * _________________________________________________________________________________________________________________
-     * Private Constructor
-     * 
-     * A private constructor is denoted by prefixing the constructor’s name with an underscore _.
-     * It is accessible within the same class or the same library.
-     * You cannot create instances of the class using a private constructor from outside the library.
-     * Private constructors are often used for various purposes, such as creating singletons, controlling object creation, or providing named constructors that are only accessible within the class.
-     * */
+     /*
+      * Public Constructor
+      * 
+      * A class may have multiple public constructors such as Default constructor and Named Constructor.It is accessible from both inside and outside the class.
+      * You can create instances of the class using the public constructor from anywhere in your Dart code.
+      * Public constructors are typically used to create instances of a class.
+      * _________________________________________________________________________________________________________________
+      * Private Constructor
+      * 
+      * A private constructor is denoted by prefixing the constructor’s name with an underscore _.
+      * It is accessible within the same class or the same library.
+      * You cannot create instances of the class using a private constructor from outside the library.
+      * Private constructors are often used for various purposes, such as creating singletons, controlling object creation, or providing named constructors that are only accessible within the class.
+      * */
 
     #endregion
 
     #region IQueryable
-    /*
-     * interface that represents a queryable data source (usually a database) and enables LINQ-to-SQL translation
-     * IQueryable relies on a provider (e.g., EF Core, CosmosDB) to translate expressions into the target query language
-     * 
-     * IQueryable<User> usersQuery = db.Users.Where(u => u.Age > 25).OrderBy(u => u.Name);
-     */
+     /*
+      * interface that represents a queryable data source (usually a database) and enables LINQ-to-SQL translation
+      * IQueryable relies on a provider (e.g., EF Core, CosmosDB) to translate expressions into the target query language
+      * 
+      * IQueryable<User> usersQuery = db.Users.Where(u => u.Age > 25).OrderBy(u => u.Name);
+      */
     #endregion
 
     #region IEnumerable
-    /*
-     *LINQ runs in C# (good for in-memory). 
-     *IEnumerable is a fundamental interface in C# that represents a sequence of elements that can be enumerated (iterated over) using foreach 
-     * 
-     * IEnumerable<int> nums = new List<int> { 1, 2, 3 };
+     /*
+      *LINQ runs in C# (good for in-memory). 
+      *IEnumerable is a fundamental interface in C# that represents a sequence of elements that can be enumerated (iterated over) using foreach 
+      * 
+      * IEnumerable<int> nums = new List<int> { 1, 2, 3 };
+      */
+    #endregion
+
+    #region Decorators API
+
+     //Decorators are a structural design pattern that allows behavior to be added to an individual object,
+
+     /*
+      * Example: 
+      */// <summary>
+     /// This is an example of a decorator pattern in C#
+     /// </summary>
+     /// 
+     /*
+     * [HttpGet]
+     * [Consumes("application/json")]
+     * [ProducesResponseType(StatusCodes.Status200OK)]
      */
+
+
+
     #endregion
 
     internal class CSharp
