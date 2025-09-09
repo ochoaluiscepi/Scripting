@@ -206,6 +206,9 @@ namespace PracticeScripts.OOP
 
     #region Interface
     //An interface contains only the signatures of methods, properties, events or indexers
+
+    //Using interfaces is crucial because they provide abstraction, decoupling, and flexibility, which are the cornerstones of maintainable, scalable, and testable software
+
     public interface IMyInterface
     {
         public int MyExampleImplement();
@@ -303,8 +306,18 @@ namespace PracticeScripts.OOP
     /*
      The delegate is a reference type data type that defines the method signature. You can define variables of delegate, 
      just like other data type, that can refer to any method with the same signature as the delegate. 
-     */
+     
+        Delegate Type	
+        Action -> Methods that do not return a value (void).	void	Action action = () => Console.WriteLine();
+        Action<int> action = (x) => Console.WriteLine(x);
 
+        Func<..., TOut>	Methods that return a value. The last type parameter is the return type.	TOut	Func<int> func = () => 42;
+        Func<int, int, string> func = (a, b) => (a + b).ToString();
+        
+        Predicate<T>	A method that checks a condition on T and returns a bool. Essentially a Func<T, bool>.
+     
+     
+     */
     public class DelegatesExamples
     {
         public delegate void Callback(string message);

@@ -46,6 +46,35 @@ namespace PracticeScripts
                                                     .Where(c => c.Article.Estatus == "Active"
                                                           && c.Article.Descripcion.Contains("Example"));
 
+            #region Model Binding with LINQ
+            /*
+             Refers to the process where ASP.NET Core automatically maps data from an HTTP request 
+             (form fields, route data, query string) to complex model objects, which are often Entity Framework models. 
+             These models are then used to query or update a database. 
+            */
+            #endregion
+
+            #region DBContext
+            /*
+              The bridge between your C# code and the database. It represents a session with the database.
+             */
+            #endregion
+
+            #region Navigation Properties
+            /*
+             Navigation properties are a fundamental and powerful feature of Entity Framework (EF) Core that allow you to represent and traverse relationships between entities in your object model.
+            
+            They don't map directly to database columns. Instead, they define the relationships between entities, and EF Core uses them to figure out how to create foreign keys and join tables in the database, and how to load related data when querying.
+
+            There are two main types:
+                Reference Navigation Property: Holds a reference to a single related entity. Used for "one" and "many-to-one" sides of a relationship.
+                Example: public Author Author { get; set; } (A Book has one Author)
+
+            Collection Navigation Property: Holds a collection (like ICollection<T>, List<T>) of related entities. Used for the "many" side of a relationship.
+            Example: public ICollection<Book> Books { get; set; } (An Author has many Books)
+             
+             */
+            #endregion
 
             #region Select(): It is used to format the result of the query as per our requirement
 
