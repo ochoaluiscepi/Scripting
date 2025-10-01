@@ -6,6 +6,8 @@
 /PracticeScripts/PracticeScripts.Tests/bin/
 /PracticeScripts/PracticeScripts.Tests/obj/
 /PracticeScripts/.vs/Practice/
+/PracticeScripts/PracticeScripts.Azure/obj/
+/PracticeScripts/PracticeScripts.Azure/bin/
 
 /PracticeScripts/PracticeScripts.Tests/obj/Debug/net8.0/ref/PracticeScripts.Tests.dll
 /PracticeScripts/.vs/Practice/CopilotIndices/17.14.995.13737
