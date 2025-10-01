@@ -26,10 +26,10 @@
 
     Prefer unknown over any when you don't know the type of a value (e.g., from a 3rd party API) but still want to maintain type safety.
 */
-let anyValue: any = "hello";
+const anyValue: any = "hello";
 anyValue.foo.bar(); // No error at compile time, but will crash at runtime.
 
-let unknownValue: unknown = "hello";
+const unknownValue: unknown = "hello";
 // unknownValue.toUpperCase(); // Error: Object is of type 'unknown'.
 if (typeof unknownValue === "string") {
     unknownValue.toUpperCase(); // OK, type is narrowed to 'string'
@@ -120,7 +120,7 @@ interface Point {
     readonly x: number;
     readonly y: number;
 }
-let p: Point = { x: 10, y: 20 };
+const p: Point = { x: 10, y: 20 };
 // p.x = 5; // Error! Cannot assign to 'x' because it is a read-only property.
 
 // as const
