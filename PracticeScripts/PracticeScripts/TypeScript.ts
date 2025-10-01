@@ -26,10 +26,10 @@
 
     Prefer unknown over any when you don't know the type of a value (e.g., from a 3rd party API) but still want to maintain type safety.
 */
-const anyValue: any = "hello";
+let anyValue: any = "hello";
 anyValue.foo.bar(); // No error at compile time, but will crash at runtime.
 
-const unknownValue: unknown = "hello";
+let unknownValue: unknown = "hello";
 // unknownValue.toUpperCase(); // Error: Object is of type 'unknown'.
 if (typeof unknownValue === "string") {
     unknownValue.toUpperCase(); // OK, type is narrowed to 'string'
@@ -70,7 +70,7 @@ interface Persons { age: number; } // Merges with the first Person declaration
 
 //#endregion
 
-// #region Generic
+// #region Generics
 /*Generics allow you to create reusable components that work over a variety of types rather than a single one.They act as placeholders for types.
 
     Usefulness: They provide flexibility while maintaining type safety.
@@ -120,7 +120,7 @@ interface Point {
     readonly x: number;
     readonly y: number;
 }
-const p: Point = { x: 10, y: 20 };
+let p: Point = { x: 10, y: 20 };
 // p.x = 5; // Error! Cannot assign to 'x' because it is a read-only property.
 
 // as const
@@ -294,5 +294,168 @@ interface ReadonlyPoint {
 }
 type MutablePoint = Mutable<ReadonlyPoint>;
 // { x: number; y: number; }
+
+//#endregion
+
+//__________________________________________________________________________________________________________________________
+//__________________________________________________________________________________________________________________________
+//__________________________________________________________________________________________________________________________
+//#region TypeScript Course - Mastering TypeScript - 2025
+
+// .ts => TypeScript file
+// .tsx => TypeScript + JSX (React)
+
+Math.round(12.5);
+
+//to run a ts file use: tsc fileName.ts and file TypeScript.js will be created
+
+//#endregion
+
+// #region Variables and Types
+const isBeginner: boolean = true;
+const total: number = 0;
+const names: string = "Luis";
+
+names.toUpperCase();
+
+//Type Inference: TypeScript automatically infers types when there is an initial value
+let sentence = `My name is ${names} I am a beginner in TypeScript`;
+
+//Any: turns off type checking fot the variable 
+let n: any = 10;
+n = true;
+n = "string";
+
+let movies = ["Inception", "Interstellar", "The Dark Knight"];
+
+//compiler creates an array of type any[]
+
+let foundMovie;
+
+//to avoid this we can define the type of the array
+let movies2: string[] = ["Inception", "Interstellar", "The Dark Knight"];
+// movies2.push(5); //Error
+let movies3: Array<string> = ["Inception", "Interstellar", "The Dark Knight"];
+
+//#endregion
+
+//#region Function Parameter Annotations
+//We can specify the type of each parameter and the return type of the function
+function square(num: number): number {
+    return num * num;
+}
+
+//function with optional parameter (and return value => : number {})
+function squareOptional(num1: number, num2?: number): number {
+    return num2 ? num1 * num2 : num1 * num1;
+}
+
+const squareDifferentFunctionDefinition = function (num: number): number {
+    return num * num;
+}
+squareDifferentFunctionDefinition(5);
+
+
+//Default Parameters
+function squareWithDefault(num: number = 10): number {
+    return num * num;
+}
+
+//Arrow Function
+ const squareArrow = (num: number): number => num * num;
+
+//#endregion
+
+//#region Anonymous Function
+
+const numbers = [1, 2, 3, 4, 5];
+numbers.forEach((num) => console.log(num));
+
+const color = ["Red", "Green", "Blue"];
+color.map((color: string) => color.toUpperCase());
+//
+//#endregion
+
+//#region Void Type
+//void type is used when a function does not return a value
+function logMessage(message: string): void {
+    console.log(message);
+}
+//#endregion
+
+//#region Never Type
+//never type is used when a function never returns (e.g., throws an error or infinite loop)
+
+function makeError(message: string): never {
+    throw new Error(message);
+}
+
+function gameLoop(): never {
+    while (true) {
+        console.log("Game Loop");
+    }
+}
+//#endregion
+
+//#region Exercise
+// **********************************************
+// ******************* PART 1 *******************
+// **********************************************
+// Write a function called "twoFer" that accepts a person's name
+// It should return a string in the format "one for <name>, one for me"
+// If no name is provided, it should default to "you"
+
+// twoFer() => "One for you, one for me"
+// twoFer("Elton") => "One for Elton, one for me"
+
+function twoFer(name: string = "you"): string {
+    return `One for ${name}, one for me`;
+}
+
+// **********************************************
+// ******************* PART 2 *******************
+// **********************************************
+// Write a isLeapyear() function that accepts a year and returns true/false depending on if the year is a leap year
+// isLeapYear(2012) => true
+// isLeapYear(2013) => false
+
+// To determine whether a year is a leapyear, use this "formula":
+// A YEAR IS A LEAPYEAR IF
+// - year is a multiple of 4 AND not a multiple of 100
+// OR...
+// - year is a multiple of 400
+// hint - use modulo
+
+function isLeapYear(year: number): boolean {
+    return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+}
+
+console.log(isLeapYear(2012)); // true
+//#endregion
+
+//#region Object Types
+const dog = {
+    name: "Buddy",
+    breed: "Golden Retriever",
+    age: 3
+}
+
+function printDog(dog: { name: string; breed: string; age: number }): void {
+    console.log(`Dog's name is ${dog.name}, breed is ${dog.breed} and age is ${dog.age}`);
+}
+
+printDog(dog);
+
+//assign object type to a variable(not common use)
+const myCar: { make: string; model: string; year: number } = { make: "Toyota", model: "Camry", year: 2020 };
+
+//return object from a function
+function randomCar(): { make: string; model: string; year: number } {
+    return { make: "Honda", model: "Civic", year: 2019 };
+}
+
+//#endregion
+
+//#region Excess Properties
 
 //#endregion
