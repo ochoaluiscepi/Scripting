@@ -368,11 +368,11 @@ function squareWithDefault(num: number = 10): number {
 
 //#region Anonymous Function
 
-const numbers = [1, 2, 3, 4, 5];
-numbers.forEach((num) => console.log(num));
+const numbersTest = [1, 2, 3, 4, 5];
+numbersTest.forEach((num) => console.log(num));
 
-const color = ["Red", "Green", "Blue"];
-color.map((color: string) => color.toUpperCase());
+const colorTest = ["Red", "Green", "Blue"];
+colorTest.map((color: string) => color.toUpperCase());
 //
 //#endregion
 
@@ -456,6 +456,42 @@ function randomCar(): { make: string; model: string; year: number } {
 
 //#endregion
 
-//#region Excess Properties
+//#region Alias
+//It is use to create a new name for a type
+type Car = {
+    make: string; 
+    model: string;
+    year: number;
+};
+function printCar(car: Car): Car {
 
+    return { make:"Mazda", model:"cx3", year:2025 };
+}
+//#endregion
+
+//#region NestedObjects
+
+type PersonAddress = {
+    name: string,
+    address: {
+        street: string,
+        city: string,
+        country: string,
+    },
+ };
+
+function describePerson(person: PersonAddress): string {
+    return `Person: ${person.name}, street ${person.address.street} `;
+}
+
+const Me = {
+    name: "Luis",
+    address: {
+        street: "Guadalajara",
+        city: "Zapopan",
+        country: "Mexico",
+    },
+};
+
+console.log(describePerson(Me));
 //#endregion
